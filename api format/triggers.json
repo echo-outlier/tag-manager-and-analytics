@@ -1,0 +1,60 @@
+{
+  "trigger": [
+    {
+      "path": "accounts/6004770670/containers/51112720/workspaces/7/triggers/8",
+      "accountId": "6004770670",
+      "containerId": "51112720",
+      "workspaceId": "7",
+      "triggerId": "8",
+      "name": "Login Button Click",
+      "type": "click",
+      "filter": [
+        {
+          "type": "contains",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{Click Classes}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "MuiButton-label"
+            }
+          ]
+        }
+      ],
+      "fingerprint": "1631057237735",
+      "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004770670/containers/51112720/workspaces/7/triggers/8?apiLink=trigger"
+    },
+    {
+      "path": "accounts/6004770670/containers/51112720/workspaces/7/triggers/12",
+      "accountId": "6004770670",
+      "containerId": "51112720",
+      "workspaceId": "7",
+      "triggerId": "12",
+      "name": "Post View",
+      "type": "pageview",
+      "filter": [
+        {
+          "type": "contains",
+          "parameter": [
+            {
+              "type": "template",
+              "key": "arg0",
+              "value": "{{Page Path}}"
+            },
+            {
+              "type": "template",
+              "key": "arg1",
+              "value": "post"
+            }
+          ]
+        }
+      ],
+      "fingerprint": "1631962128702",
+      "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004770670/containers/51112720/workspaces/7/triggers/12?apiLink=trigger"
+    }
+  ]
+}

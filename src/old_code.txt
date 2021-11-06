@@ -1,0 +1,55 @@
+{/* <Flex>
+        <h3 className="starting">Initialize :</h3>
+        <Button
+          style={mystyle}
+          color="primary"
+          onClick={InitializeTagManagerClient}
+        >
+          Initialize Tag Manager Client
+        </Button>
+        <Button
+          style={mystyle}
+          color="primary"
+          onClick={InitializeAnalyticsClient}
+        >
+          Initialize Analytics Client
+        </Button>
+      </Flex>
+      <Flex>
+        <h3 className="starting">Fetching :</h3>
+        <Button style={mystyle} color="primary" onClick={fetchAllTags}>
+          All Tags
+        </Button>
+        <Button style={mystyle} color="primary" onClick={fetchAllTrigger}>
+          All Trigger
+        </Button>
+        <Button style={mystyle} color="primary" onClick={fetchAllVariables}>
+          All Variables
+        </Button>
+        <Button style={mystyle} color="primary" onClick={fetchCustomDimension}>
+          All Dimensions
+        </Button>
+      </Flex>
+      <Flex>
+        <h3 className="starting">Creating :</h3>
+        <Button style={mystyle} color="primary" onClick={CreateConfigTag}>
+          Configuration Tag
+        </Button>
+        {api_flag ? <div>Ready to Use</div> : null}
+        <Button style={mystyle} color="primary" onClick={createEventTrigger}>
+          Event Trigger
+        </Button>
+        <Button
+          style={mystyle}
+          color="primary"
+          onClick={createDataLayerVariable}
+        >
+          DataLayer Variables
+        </Button>
+        <Button style={mystyle} color="primary" onClick={createEventTag}>
+          Event Tag
+        </Button>
+        <Button style={mystyle} color="primary" onClick={createCustomDimension}>
+          Custom Dimesion
+        </Button>
+      </Flex> */}

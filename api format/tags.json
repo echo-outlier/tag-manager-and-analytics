@@ -1,0 +1,212 @@
+{
+  "tag": [
+    {
+      "path": "accounts/6004770670/containers/51112720/workspaces/7/tags/9",
+      "accountId": "6004770670",
+      "containerId": "51112720",
+      "workspaceId": "7",
+      "tagId": "9",
+      "name": "Login Button Tag",
+      "type": "gaawe",
+      "parameter": [
+        {
+          "type": "template",
+          "key": "eventName",
+          "value": "login_click"
+        },
+        {
+          "type": "list",
+          "key": "eventParameters",
+          "list": [
+            {
+              "type": "map",
+              "map": [
+                {
+                  "type": "template",
+                  "key": "name",
+                  "value": "login_btn_class"
+                },
+                {
+                  "type": "template",
+                  "key": "value",
+                  "value": "{{Click Classes}}"
+                }
+              ]
+            },
+            {
+              "type": "map",
+              "map": [
+                {
+                  "type": "template",
+                  "key": "name",
+                  "value": "user_name"
+                },
+                {
+                  "type": "template",
+                  "key": "value",
+                  "value": "{{user_name}}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tagReference",
+          "key": "measurementId",
+          "value": "Google Analytics GA4 Configuration"
+        }
+      ],
+      "fingerprint": "1631102910466",
+      "firingTriggerId": ["8"],
+      "tagFiringOption": "oncePerEvent",
+      "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004770670/containers/51112720/workspaces/7/tags/9?apiLink=tag",
+      "monitoringMetadata": {
+        "type": "map"
+      },
+      "consentSettings": {
+        "consentStatus": "notSet"
+      }
+    },
+    {
+      "path": "accounts/6004770670/containers/51112720/workspaces/7/tags/7",
+      "accountId": "6004770670",
+      "containerId": "51112720",
+      "workspaceId": "7",
+      "tagId": "7",
+      "name": "Drift ChatBot",
+      "type": "html",
+      "parameter": [
+        {
+          "type": "template",
+          "key": "html",
+          "value": "\u003c!-- Start of Async Drift Code --\u003e\n\u003cscript\u003e\n\"use strict\";\n\n!function() {\n  var t = window.driftt = window.drift = window.driftt || [];\n  if (!t.init) {\n    if (t.invoked) return void (window.console && console.error && console.error(\"Drift snippet included twice.\"));\n    t.invoked = !0, t.methods = [ \"identify\", \"config\", \"track\", \"reset\", \"debug\", \"show\", \"ping\", \"page\", \"hide\", \"off\", \"on\" ], \n    t.factory = function(e) {\n      return function() {\n        var n = Array.prototype.slice.call(arguments);\n        return n.unshift(e), t.push(n), t;\n      };\n    }, t.methods.forEach(function(e) {\n      t[e] = t.factory(e);\n    }), t.load = function(t) {\n      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement(\"script\");\n      o.type = \"text/javascript\", o.async = !0, o.crossorigin = \"anonymous\", o.src = \"https://js.driftt.com/include/\" + n + \"/\" + t + \".js\";\n      var i = document.getElementsByTagName(\"script\")[0];\n      i.parentNode.insertBefore(o, i);\n    };\n  }\n}();\ndrift.SNIPPET_VERSION = '0.3.1';\ndrift.load('zf3vug8dzprv');\n\u003c/script\u003e\n\u003c!-- End of Async Drift Code --\u003e"
+        },
+        {
+          "type": "boolean",
+          "key": "supportDocumentWrite",
+          "value": "false"
+        }
+      ],
+      "fingerprint": "1631054433190",
+      "firingTriggerId": ["2147479553"],
+      "tagFiringOption": "oncePerEvent",
+      "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004770670/containers/51112720/workspaces/7/tags/7?apiLink=tag",
+      "monitoringMetadata": {
+        "type": "map"
+      },
+      "consentSettings": {
+        "consentStatus": "notSet"
+      }
+    },
+    {
+      "path": "accounts/6004770670/containers/51112720/workspaces/7/tags/6",
+      "accountId": "6004770670",
+      "containerId": "51112720",
+      "workspaceId": "7",
+      "tagId": "6",
+      "name": "Google Analytics GA4 Configuration",
+      "type": "gaawc",
+      "parameter": [
+        {
+          "type": "list",
+          "key": "fieldsToSet",
+          "list": [
+            {
+              "type": "map",
+              "map": [
+                {
+                  "type": "template",
+                  "key": "name",
+                  "value": "propertyID"
+                },
+                {
+                  "type": "template",
+                  "key": "value",
+                  "value": "{{gaProperty}}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "boolean",
+          "key": "sendPageView",
+          "value": "true"
+        },
+        {
+          "type": "boolean",
+          "key": "enableSendToServerContainer",
+          "value": "false"
+        },
+        {
+          "type": "template",
+          "key": "measurementId",
+          "value": "{{measurementID}}"
+        }
+      ],
+      "fingerprint": "1632061167091",
+      "firingTriggerId": ["2147479553"],
+      "tagFiringOption": "oncePerEvent",
+      "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004770670/containers/51112720/workspaces/7/tags/6?apiLink=tag",
+      "monitoringMetadata": {
+        "type": "map"
+      },
+      "monitoringMetadataTagNameKey": "configure",
+      "consentSettings": {
+        "consentStatus": "notSet"
+      }
+    },
+    {
+      "path": "accounts/6004770670/containers/51112720/workspaces/7/tags/13",
+      "accountId": "6004770670",
+      "containerId": "51112720",
+      "workspaceId": "7",
+      "tagId": "13",
+      "name": "Google Analytics GA4 Post View Event",
+      "type": "gaawe",
+      "parameter": [
+        {
+          "type": "template",
+          "key": "eventName",
+          "value": "post_click"
+        },
+        {
+          "type": "list",
+          "key": "eventParameters",
+          "list": [
+            {
+              "type": "map",
+              "map": [
+                {
+                  "type": "template",
+                  "key": "name",
+                  "value": "post_id"
+                },
+                {
+                  "type": "template",
+                  "key": "value",
+                  "value": "{{postId}}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tagReference",
+          "key": "measurementId",
+          "value": "Google Analytics GA4 Configuration"
+        }
+      ],
+      "fingerprint": "1631961705575",
+      "firingTriggerId": ["12"],
+      "tagFiringOption": "oncePerEvent",
+      "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004770670/containers/51112720/workspaces/7/tags/13?apiLink=tag",
+      "monitoringMetadata": {
+        "type": "map"
+      },
+      "consentSettings": {
+        "consentStatus": "notSet"
+      }
+    }
+  ]
+}

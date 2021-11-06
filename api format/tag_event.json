@@ -1,0 +1,39 @@
+{
+  "name": "Login Button Tag",
+  "type": "gaawe",
+  "parameter": [
+    {
+      "type": "template",
+      "key": "eventName",
+      "value": "login_click"
+    },
+    {
+      "type": "list",
+      "key": "eventParameters",
+      "list": [
+        {
+          "type": "map",
+          "map": [
+            {
+              "type": "template",
+              "key": "name",
+              "value": "login_btn_class"
+            },
+            {
+              "type": "template",
+              "key": "value",
+              "value": "{{Click Classes}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "tagReference",
+      "key": "measurementId",
+      "value": "Google Analytics GA4 Configuration"
+    }
+  ],
+  "firingTriggerId": ["4"],
+  "tagFiringOption": "oncePerEvent"
+}
